@@ -32,7 +32,21 @@
     font-size: 20px;
     cursor: pointer;
   }
-  
+  .openModalBtn{
+   
+    cursor: pointer;
+    background-color: rgb(72, 72, 72);
+    color: white;
+    font-size: 32px;
+ width: 200px;
+ height: 60px;
+  }
+  .btncontainer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 120px;
+  }
   .header {
     display: flex;
     justify-content: space-between;

@@ -16,10 +16,13 @@ function App() {
   return (
     <>
     <div className='App'>
-      <h1>Hey click on the button to open the modal</h1>
-      <button className='openModalBtn' onClick={handleClick}>Open</button> 
+      <div className='btncontainer'>
+      <button className='openModalBtn' onClick={handleClick}>Show popup</button> 
 
-      {openModal && <Modal closeModal={setOpenModal}/> }
+{openModal && <Modal closeModal={setOpenModal}/> }
+      </div>
+   
+      
     </div>
     </>
   )
