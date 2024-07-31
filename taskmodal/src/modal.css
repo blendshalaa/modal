@@ -74,7 +74,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    border: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
     border-radius: 4px;
     flex-wrap: nowrap;
   }
@@ -116,6 +116,7 @@
   .cancelButton {
     background-color: white;
     color: black;
+    border: 1px solid rgb(210, 207, 207);
   }
   
   .saveButton {
